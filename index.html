@@ -11,23 +11,25 @@
     <title>Puerto54 - Main</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-info border-bottom box-shadow">
-      <div class="container">
-          <a class="navbar-brand text-white" href="#">
-              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-award mr-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <g transform="rotate(15)">
-                      <path fill-rule="evenodd" d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z" />
-                      <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-                  </g>
-              </svg>
-              Puerto<sup>54</sup>
-          </a>
-      </div>
-    </nav>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-info border-bottom box-shadow">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">
+                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-award mr-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="rotate(15)">
+                        <path fill-rule="evenodd" d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z" />
+                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+                    </g>
+                </svg>
+                Puerto<sup>54</sup>
+            </a>
+        </div>
+      </nav>
+    </header>
     <!-- Image and text -->
     <div class="jumbotron">
       <h1 class="text-center display-4 text-info font-weight-light">        
-        The art of Software
+        The art of <span class="text-center display-4 text-muted font-weight-light"><em>Softwaring</em></span>
       </h1>
       <p></p>
       <p class="lead">Developing software is the science of modeling our reality or giving life to our imagination through computer systems using one or more programming languages.</p>
@@ -36,28 +38,28 @@
       <p class="text-muted">--Guillermo Vitola</p>               
       <p></p>
       <div class="container">
-          <div class="row">
-              <div class="col">
-                  <div class="card">
-                      <img src="./images/BARU-2018.jpeg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                      <h5 class="card-title text-info">Projects</h5>
-                      <p class="card-text">Find a summary of developed projects and a short description of the scope and the technology used on each.</p>
-                      <a href="#" class="btn btn-info">Go somewhere</a>
-                      </div>
-                  </div>
-              </div>
-              <div class="col">
-                  <div class="card">
-                      <img src="./images/COCORA-2019.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                      <h5 class="card-title text-info">Examples</h5>
-                      <p class="card-text">Find some learning processes of technologies frameworks and examples where we show how to use them.</p>
-                      <a href="#" class="btn btn-info">Go somewhere</a>
-                      </div>
-                  </div>
-              </div>
-          </div>  
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card">
+                <img src="./images/BARU-2018.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-info">Projects</h5>
+                  <p class="card-text">Find a summary of developed projects and a short description of the scope and the technology used on each.</p>
+                  <a href="#" class="btn btn-info">Go somewhere</a>
+                </div>
+            </div>  
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+                <img src="./images/COCORA-2019.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-info">Examples</h5>
+                  <p class="card-text">Find some learning processes of technologies frameworks and examples where we show how to use them.</p>
+                  <a href="#" class="btn btn-info">Go somewhere</a>
+                </div>
+            </div>
+          </div>          
+        </div>
       </div>  
     </div>
     <!-- Optional JavaScript -->
@@ -66,4 +68,5 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
+
 </html>
