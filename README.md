@@ -1,16 +1,13 @@
-### Hi there 👋
+# GVitola
+This is the main page for Guillermo Vitola portfolio. Please go to: [www.Puerto54.com](https://www.puerto54.com)
 
-<!--
-**gvitola/gvitola** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Portfolio
+If access is granted, you can find, among others, examples of:
+1. MVC Web Apps + Non-relational Database
+2. MVC Web Apps + Relational Database
+3. MVC Console Apps
+4. Web API App
+5. Machine Learning (ML) Apps
+6. Authomated Test Apps
+7. WEB Scrapping Apps
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
