@@ -1,5 +1,5 @@
 # GVitola
-This is the main page for Guillermo Vitola portfolio. Please go to: [www.Puerto54.com](https://www.puerto54.com)
+This is the main page for Guillermo Vitola repository that you can explore at: [www.puerto54.com](https://www.puerto54.com)
 
 # Portfolio
 If access is granted, you can find, among others, examples of:
